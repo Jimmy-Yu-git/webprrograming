@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Viewer</title>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="styles.css"
+        />
+    </head>
+    <body>
+        <div class="image-viewer__container">
+                <div class="image-viewer__title">
+                    <p>Image-viewer</p>
+                    <div class="sound">
+                    <audio id="audio">  
+                     <source src="./image/soundtrack.mp3" type="audio/mpeg">
+                    </audio>
+                    <button id="playBTN">&#9654;</button>
+                    </div>
+
+                    <p id="pid" style="font-size:2rem;margin-top: 110px"></p>
+                </div>
+                <!-- <p id="pid" style="font-size:1rem;margin-top:0px"></p> -->
+                <div class="image-viewer__main">
+                    <div class="image-viewer__button" >
+                        
+                        <img  id="previous" src="./image/back.png">
+                    </div>
+
+                    <div class="image-viewer__display">
+                        <img id="display" src="https://image.cache.storm.mg/styles/smg-800x533-fp/s3/media/image/2017/02/17/20170217-110627_U7533_M248445_fa92.jpg?itok=GDVDbk5_">
+                        <div class="image-viewer__display-source-wrapper">
+                            <a id="source" href="https://upload.cc/i1/2021/03/12/7YtBnI.jpg">
+                                <p style="font-size:30px;margin-top:auto">https://upload.cc/i1/2021/03/12/7YtBnI.jpg/</p>
+                            </a>
+                        </div>
+                        
+                    </div>
+
+                    <div class="image-viewer__button" >
+                        <img   id="next" src="./image/next.png">
+s
+                    </div>
+                </div>
+        </div>
+        
+        <script src="main.js"></script>
+    </body>
+</html>
