@@ -1,4 +1,4 @@
-![20210426](./fakesheet.PNG)
+![20210426](./fakesheet.png)
 ###  function
 * created the form
 * push enter can finish editing and change to next cell
@@ -8,7 +8,7 @@
 * click can highlight target column and row
 * enter = can start formulamode
 
-![20210426](./formulamode.PNG)
+![20210426](./formulamode.png)
 
 ### enter = 5+2 click 'enter' = 7
 
