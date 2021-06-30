@@ -44,12 +44,14 @@ function App() {
         </p>
         ) : (
           	messages.map(({name,body},i) => (
+			<div style={{ marginLeft: 0 }}>
             <p  key = {i}>
 				<Tag color = 'blue'>
 					{name}
 				</Tag>
 				{body}
             </p>
+			</div>
           ))
         )}
         

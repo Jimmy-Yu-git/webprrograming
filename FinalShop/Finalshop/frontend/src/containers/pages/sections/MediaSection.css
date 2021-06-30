@@ -1,0 +1,51 @@
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+  
+  .media-container {
+    /* background: url('../../../assests/images/appreciate.jpg') center center/cover no-repeat; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+  
+  .media-container > h1 {
+    color: #fff;
+    font-size: 100px;
+    text-shadow: 0 0 5px black, 0 0 5px #6bf403;
+    /* margin-top: -100px; */
+  }
+  
+  .media-container > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 800;
+    text-shadow: 0 0 5px black, 0 0 5px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .media-btns {
+    margin-top: 32px;
+    box-shadow: inset;
+  }
+  
+  .media-btns .btn {
+    margin: 6px;
+  }
+
+
+  .fa-play-circle {
+    margin-left: 4px;
+  }
+  
